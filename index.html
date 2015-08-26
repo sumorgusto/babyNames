@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+  
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+          <div id="search-container">
+            <form>
+              <div class="form-group">
+                <header>Search by</header>
+                <label>Baby Name:</label><input id="baby-search" class="form-control" value="David">
+                <button class="btn" id="submit-button">Submit</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="baby_name">
+          </div>
+        </div>
+
+        <div class="map-container col-xs-12 col-lg-6">
+          <div id="map-canvas"></div> 
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/babyNames.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD10hdrwh2zsUeoHfSsvhITq1FErZG2y5s"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.lat .long {
+	visibility: hidden;
+}
+
+#map-canvas { height: 100%; margin: 0; padding: 0;}
+
+.wrapper {
+	height: 750px;
+	width: 100%;
+}
+
+.map-container {
+	height: 750px;
+}
+
+#search-container {
+	font-size: 24px;
+	color: #666666;
+	padding: 20px;
+}
+
+#baby-search {
+	font-size: 24px;
+	color: #2980b9;
+}
+
+.form-control {
+	height: 45px;
+}
+
+.btn {
+	margin: 10px 0px 10px 0px;
+}
+
+.baby_name {
+	padding: 20px;
+	color: #2980b9;
+}
